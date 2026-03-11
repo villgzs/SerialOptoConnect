@@ -2082,12 +2082,6 @@
 		(uuid "c61c7e52-e82b-4f48-8064-45134ad06859")
 	)
 	(junction
-		(at 85.09 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "092940dd-1e5f-4ff9-94fa-95b7850433c5")
-	)
-	(junction
 		(at 34.29 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2128,12 +2122,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85da3f61-e873-41ec-85ee-1c5a9be00a91")
-	)
-	(junction
-		(at 39.37 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90f76879-1390-4239-8b48-90139cac7fbf")
 	)
 	(junction
 		(at 91.44 123.19)
@@ -2215,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 58.42) (xy 85.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e406be6-4e26-4c1a-90de-e2ad2ae4841c")
-	)
-	(wire
-		(pts
 			(xy 39.37 95.25) (xy 39.37 97.79)
 		)
 		(stroke
@@ -2252,6 +2230,16 @@
 			(type default)
 		)
 		(uuid "1a7599c1-2d3b-4ef5-9381-17550369be98")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6226f4-4a96-4233-adcb-cc30c44f4846")
 	)
 	(wire
 		(pts
@@ -2325,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 50.8) (xy 85.09 40.64)
+			(xy 85.09 45.72) (xy 85.09 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2352,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "27745632-471f-470d-add9-bf12c3c3b19a")
-	)
-	(wire
-		(pts
-			(xy 39.37 109.22) (xy 39.37 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d1c16d1-925f-459c-81be-961a730689a5")
 	)
 	(wire
 		(pts
@@ -2412,16 +2390,6 @@
 			(type default)
 		)
 		(uuid "360ef3c6-b878-47cf-aab8-01b98af2d9e2")
-	)
-	(wire
-		(pts
-			(xy 39.37 124.46) (xy 39.37 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a1c274-7e5c-4fe0-b345-599ee33ae77f")
 	)
 	(wire
 		(pts
@@ -2545,16 +2513,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 124.46) (xy 41.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "689c9ab6-780e-460b-95cc-78da5a47aac6")
-	)
-	(wire
-		(pts
 			(xy 63.5 100.33) (xy 63.5 111.76)
 		)
 		(stroke
@@ -2615,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 41.91 124.46)
+			(xy 41.91 106.68) (xy 41.91 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2722,16 +2680,6 @@
 			(type default)
 		)
 		(uuid "9dd89b8f-646c-487f-9711-441d36f72aab")
-	)
-	(wire
-		(pts
-			(xy 85.09 68.58) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e00afa2-71a7-4165-8b0d-a7ff0c0c4587")
 	)
 	(wire
 		(pts
@@ -2865,16 +2813,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 39.37 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17f1304-ceed-42ba-851f-1f140a79bba8")
-	)
-	(wire
-		(pts
 			(xy 80.01 68.58) (xy 78.74 68.58)
 		)
 		(stroke
@@ -2902,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "d7b5337e-6d5c-4e88-be43-dd369f87a335")
-	)
-	(wire
-		(pts
-			(xy 85.09 67.31) (xy 85.09 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb7a4b4-6b57-4d28-aa10-6d6f895c0727")
 	)
 	(wire
 		(pts
@@ -2995,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 110.49 68.58)
+			(xy 80.01 68.58) (xy 110.49 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 125.73 0)
+		(at 41.91 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3180,7 +3108,7 @@
 		(fields_autoplaced yes)
 		(uuid "22d07205-9f21-4518-96fe-4e6d1b181278")
 		(property "Reference" "#PWR08"
-			(at 39.37 132.08 0)
+			(at 41.91 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 130.81 0)
+			(at 41.91 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 125.73 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 125.73 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 125.73 0)
+			(at 41.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 41.91 102.8699 0)
 			(effects
 				(font
@@ -4498,76 +4426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb255249-2e80-4f13-9114-f2c006f48bf4")
-		(property "Reference" "R5"
-			(at 87.63 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 87.63 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 83.312 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b60c8550-fee3-4be7-86e3-086f455547d2")
-		)
-		(pin "1"
-			(uuid "f4c70d2c-e371-4d9b-b0b0-ca1e0bbd9e8b")
-		)
-		(instances
-			(project "SerialOptoConnect"
-				(path "/6aa56471-e065-4edd-8c70-ddc11bc1dc24"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N5819")
 		(at 71.12 111.76 90)
 		(unit 1)
@@ -4852,7 +4710,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 54.61 0)
+		(at 85.09 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4861,7 +4719,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4d0d062-d4d5-4590-a3f8-bd02c32f73ea")
 		(property "Reference" "R4"
-			(at 87.63 53.3399 0)
+			(at 87.63 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,8 +4727,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 87.63 55.8799 0)
+		(property "Value" "10k"
+			(at 87.63 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4737,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 83.312 54.61 90)
+			(at 83.312 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 54.61 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 54.61 0)
+			(at 85.09 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,76 +4773,6 @@
 			(project "SerialOptoConnect"
 				(path "/6aa56471-e065-4edd-8c70-ddc11bc1dc24"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7a3d921-bfe1-4814-87ca-2f98f3d214ba")
-		(property "Reference" "R10"
-			(at 41.91 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 41.91 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 37.592 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99006e43-1d89-47fd-b0d2-d6c83bc0d937")
-		)
-		(pin "1"
-			(uuid "7ca37121-fa91-47ba-aad3-a031a3f14d5b")
-		)
-		(instances
-			(project "SerialOptoConnect"
-				(path "/6aa56471-e065-4edd-8c70-ddc11bc1dc24"
-					(reference "R10")
 					(unit 1)
 				)
 			)
